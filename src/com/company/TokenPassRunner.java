@@ -3,7 +3,7 @@ package com.company;
 public class TokenPassRunner {
 
     public static void main(String[] args) {
-	// write your code here
+        // write your code here
         TokenPass testGame = new TokenPass(10);
         int[] testBoard = testGame.getBoard();
         System.out.print("Constructed a testBoard: ");
